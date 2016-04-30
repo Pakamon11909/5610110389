@@ -15,8 +15,7 @@ import java.util.ArrayList;
 
  		SpaceShip v = new SpaceShip(180, 550, 20, 20);
  		GamePanel gp = new GamePanel();
- 		gp.sprites.add(v);
-  		gp.updateGameUI();
+ 		
 
  		
  		GameEngine engine = new GameEngine(gp, v);
